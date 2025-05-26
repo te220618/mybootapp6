@@ -48,9 +48,4 @@ public class BookService {
         BeanUtils.copyProperties(bookBean, bookForm);
         return bookForm;
     }
-
-    public void save(BookForm form) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'save'");
-    }
 }
