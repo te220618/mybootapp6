@@ -30,7 +30,7 @@ public class BookController {
 
     @PostMapping(path = "create")
     String create(BookForm form, Model mode) {
-        bookService.save(form);
+        bookService.create(form);
         return "redirect:/books";
     }
 
