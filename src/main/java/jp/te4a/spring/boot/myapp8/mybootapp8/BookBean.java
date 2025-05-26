@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp6.mybootapp6;
+package jp.te4a.spring.boot.myapp8.mybootapp8;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
