@@ -17,7 +17,7 @@ public class BookRepository {
         return BOOK_ID++;
     }
 
-    public BookBean create(BookBean bookBean) {
+    public BookBean save(BookBean bookBean) {
         return bookMap.put(bookBean.getId(), bookBean);
     }
 
