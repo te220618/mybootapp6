@@ -12,7 +12,7 @@ public class BookService {
     @Autowired
     BookRepository bookRepository;
 
-    public BookForm save(BookForm bookForm) {
+    public BookForm create(BookForm bookForm) {
         bookForm.setId(bookRepository.getBookId());
         BookBean bookBean = new BookBean();
         BeanUtils.copyProperties(bookForm, bookBean);

@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-
 @Controller
 @RequestMapping("books")
 public class BookController {
@@ -30,7 +29,7 @@ public class BookController {
 
     @PostMapping(path = "create")
     String create(BookForm form, Model mode) {
-        bookService.save(form);
+        bookService.create(form);
         return "redirect:/books";
     }
 
