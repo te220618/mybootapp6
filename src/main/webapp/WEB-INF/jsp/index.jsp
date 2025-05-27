@@ -34,7 +34,7 @@
                     <td><input type="text" name="price" /></td>
                 </tr>
             </table>
-            <input type="submit" value="送信" />
+            <input type="submit" />
         </form>
     </body>
 
