@@ -37,7 +37,7 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<version>8.4.0</version> <!-- 最新安定版を推奨 -->
 		</dependency>
-		
+
 
 		<!-- ???? -->
 		<dependency>
