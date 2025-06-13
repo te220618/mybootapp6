@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp11;
+package jp.te4a.spring.boot.myapp13;
 
 import jakarta.validation.constraints.*;
 import lombok.Data;
